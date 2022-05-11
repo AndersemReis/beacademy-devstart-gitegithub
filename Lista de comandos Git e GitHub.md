@@ -1,4 +1,4 @@
-git config --global user.name "<nome>" (configura usuário)
+git config --global user.name "<nome>" - configura usuário
 git config --global user.email "<email>" (configura email de usuário)
 git status (mostra o status do git)
 git init (inicia repositório vazio)
