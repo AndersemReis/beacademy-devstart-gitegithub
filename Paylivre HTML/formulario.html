@@ -53,12 +53,14 @@
 		<input 
 		type="password"
 		size="24"
-		placeholder="password"
-		minlength="8"
-		maxlength="16"
 		title="Preencha as informações"
+		pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
 		required
 		>
+		<br>
+		<input type="hidden" value="estou escondido">
+		<input type="color">
+		<input type="date">
 		<br>
 		<button type="submit">Enviar</button>
 		
