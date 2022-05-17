@@ -21,9 +21,9 @@
 	<input type="text" list="prof-list" placeholder="Escolha seu professor">
 	
 </form>-->
-
+<form action="" method="post" enctype="multipart/form-data">
 <fieldset>
-	<legend>Trabalhando com inputs</legend>
+	<!--<legend>Trabalhando com inputs</legend>
 		<input 
 		type="text"
 		placeholder="Preencha o nome"
@@ -61,8 +61,57 @@
 		<input type="hidden" value="estou escondido">
 		<input type="color">
 		<input type="date">
+		<label for="prof">Seu interesse maior é por qual area
+
+		</label>
+		<div>
+			<input type="checkbox" 
+			name="interesse"
+			id="frontend"
+			value="Front-End Luan Monteiro"> 
+			<label for="frontend">Front-End Luan Monteiro</label>
+			<input type="checkbox" 
+			name="interesse"
+			id="backend"
+			value="Back-end Regis Santos">
+			<label for="backend">Back-end Regis Santos</label>
+			<input type="checkbox" 
+			name="interesse"
+			id="designuiux"
+			value="Design UI/UX Jenifer Vieira">
+			<label for="designuiux">Design UI/UX Jenifer Vieira</label>
+		</div>
 		<br>
+
+		<h3>Deseja receber notificaçao da Be.academy</h3>
+		<label for="yes">Sim</label>
+		<input type="radio" id="yes" name="notification" value="yes">
+
+		<label for="no">Nao</label>
+		<input type="radio" id="no" name="notification" value="no">
+		<br>
+		<br>-->
+		<label for="teacher">Professores:</label>
+		<select name="select-teacher" id="teacher">
+		<option value="">Selecione um professor</option>
+		<option value="Luan Santos">Luan Santos</option>
+		<option value="Moacir Garcia">Moacir Garcia</option>
+		<option value="Jenifer Vieira">Jenifer Vieira</option>
+		
+		</select>
+		<input type="search"
+		name=""
+		title=""
+		placeholder="Faça uma pesquisa"
+		size="24"
+		pattern="[0-9]{0,3^}"
+		required>
+		<br>
+		<br>
+		<input type="file", value="", accept="image/*"
+		multiple>
 		<button type="submit">Enviar</button>
 		
 		
 </fieldset>
+</form>
