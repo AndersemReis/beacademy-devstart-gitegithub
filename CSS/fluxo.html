@@ -7,16 +7,34 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./assets/style.css">
-
+<style>
+    h1{
+        background: blue;
+    }
+    #super-title{
+        background: red;
+    }
+    .my-title-2{
+        background: yellow;
+    }
+</style>
 </head>
 <body>
     
     
-    <div>
-        <h1>
-            Título
-        </h1>
-    </div>
+    <h1 id="super-title">
+        Testando especificidade
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat odio nihil quam, reiciendis animi eveniet earum illo repellat sit nam. Hic, cum.<br>
+            Delectus, accusamus qui adipisci fuga sed perspiciatis culpa.</p>
+
+    <h1 class="my-title-2">Testando especificidade</h1>
+    <p class="my-text-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        <br>Error dolore minus voluptates necessitatibus quos incidunt ipsum, dicta, cumque quibusdam quidem maxime quo repellendus iste commodi pariatur! Est libero ex iste?
+    </p>
+
+
+
 
 </body>
 </html>
